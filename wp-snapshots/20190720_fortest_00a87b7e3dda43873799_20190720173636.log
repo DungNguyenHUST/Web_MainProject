@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: July 20, 2019 5:36 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.18
+WORDPRESS:	5.2.2
+PHP INFO:	7.1.29 | SAPI: apache2handler
+SERVER:		Apache/2.4.39 (Win64) OpenSSL/1.0.2r PHP/7.1.29 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20190720_fortest_00a87b7e3dda43873799_20190720173636_database.sql
+SQL FILE SIZE: 5.93MB (6212911)
+SQL FILE TIME: 2019-07-20 17:36:47
+SQL RUNTIME: 2.07 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/for_test_only
+ARCHIVE FILE: 20190720_fortest_00a87b7e3dda43873799_20190720173636_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	86.96MB
+STATS:	Dirs 740 | Files 6,330
+SQL ADDED: 20190720_fortest_00a87b7e3dda43873799_20190720173636_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7070
+    [filename] => C:\xampp\htdocs\for_test_only\wp-snapshots\tmp\20190720_fortest_00a87b7e3dda43873799_20190720173636_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 7069
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 49.1MB
+ARCHIVE RUNTIME: 11.20 sec.
+MEMORY STACK: 4MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/xampp/htdocs/for_test_only/wp-snapshots/tmp/20190720_fortest_00a87b7e3dda43873799_20190720173636_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 5.93MB
+INSTALLER FILE: 59.37KB
+ARCHIVE FILE: 50.51MB 
+EXPECTED FILE/DIRECTORY COUNT: 7,070
+ACTUAL FILE/DIRECTORY COUNT: 7,069
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 14.33 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => 20190720_fortest July 20, 2019 5:36 pm
+
