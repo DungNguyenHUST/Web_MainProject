@@ -1,0 +1,39 @@
+.Log_in_button a {
+  background-color: #ffffff;
+  padding: 0px 30px;
+  border-radius: 20px;
+  border: 1px solid #1a73e8;
+  -webkit-transition: all 400ms;
+  transition: width all 400ms;
+  position: relative;
+  color: #ffffff;
+}
+
+.Log_in_button a:hover {
+  background-color: #1a73e8;
+  border: 1px solid #1a73e8;
+  -webkit-transition: all 400ms;
+  transition: width all 400ms;
+}
+
+.Log_in_button a:after {
+  display: none !important;
+}
+
+.Log_out_button a {
+  background-color: #1a73e8;
+  padding: 0px 30px;
+  border-radius: 20px;
+  border: 1px solid #1a73e8;
+  -webkit-transition: all 400ms;
+  transition: width all 400ms;
+  position: relative;
+  color: #ffffff;
+}
+
+.Log_out_button a:hover {
+  background-color: #ffffff;
+  border: 1px solid #1a73e8;
+  -webkit-transition: all 400ms;
+  transition: width all 400ms;
+}
