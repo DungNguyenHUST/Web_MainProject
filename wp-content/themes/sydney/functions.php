@@ -473,3 +473,19 @@ function sydney_welcome_admin_notice() {
 }
 add_action( 'admin_init', array( 'PAnD', 'init' ) );
 add_action( 'admin_notices', 'sydney_welcome_admin_notice' );
+
+
+// DUNGNGUYEN add for call short code
+function Price_shortcode() {
+    ob_start();
+	get_template_part('page-templates/Price_Template');
+    return ob_get_clean();   
+} 
+add_shortcode( 'Price_shortcode', 'Price_shortcode' );
+
+function FAQ_shortcode() {
+    ob_start();
+	get_template_part('page-templates/FAQ_Template');
+    return ob_get_clean();   
+} 
+add_shortcode( 'FAQ_shortcode', 'FAQ_shortcode' );

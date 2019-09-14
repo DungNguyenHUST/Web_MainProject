@@ -1,3 +1,4 @@
+/* Log In/Out button */
 .Log_in_button a {
   /* background-color: #ffffff; */
   padding: 0px 30px;
@@ -37,14 +38,13 @@
   -webkit-transition: all 400ms;
   transition: width all 400ms;
 }
+/* End Log In/Out*/
 
-/* ======================== */
-/*   Syed Sahar Ali Raza    */
-/* ======================== */
+/* Price table */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-body{background-color:#eee;}
+body{background-color:#ffffff;}
 
 #generic_price_table{
     background-color: #ffffff;
@@ -451,3 +451,71 @@ body{background-color:#eee;}
     color: #FFF;
     text-decoration:none;
 }
+/* End Price table */
+
+/* Primary menu style */
+.menu_Products{
+
+}
+.menu_Resource{
+
+}
+.menu_Pricing{
+
+}
+.menu_Blog{
+
+}
+.menu_More{
+
+}
+
+.sub_menu {
+    position:absolute;          
+}
+
+/* .menu_sub_Website_Design a{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    background-color: #2ECC71;
+} */
+
+.menu_sub_Chat_App_Plugin{
+    margin: 0;
+    padding: 0;
+}
+
+.menu_sub_Intergrations{
+    margin: 0;
+    padding: 0;
+}
+.menu_sub_Pricing_for_Website{
+    margin: 0;
+    padding: 0;
+}
+.menu_sub_Pricing_for_Chat{
+    margin: 0;
+    padding: 0;
+}
+.menu_sub_Contact
+{
+    margin: 0;
+    padding: 0;
+}
+.menu_sub_Support{
+    margin: 0;
+    padding: 0;
+}
+/* End primary menu style */
+
+/* FAQ style */
+
+/* End FAQ */
+
+/* Hide title */
+.post-213 .entry-title {
+
+    display: none;
+ }
